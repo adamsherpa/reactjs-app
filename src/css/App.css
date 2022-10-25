@@ -1,0 +1,11 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-collection {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.standout {
+    box-shadow:  8px 8px 8px #010911, inset -8px -8px 8px #fff;
+}
