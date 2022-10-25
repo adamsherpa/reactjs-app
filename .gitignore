@@ -150,7 +150,6 @@ web_modules/
 .npm
 
 # Optional eslint
-.eslint*
 
 # Optional stylelint cache
 .stylelintcache

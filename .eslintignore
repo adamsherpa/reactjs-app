@@ -1,0 +1,6 @@
+.eslint*
+.prettierrc.*
+package.json
+pnpm-lock.*
+tsconfig.json
+vite.config.js
