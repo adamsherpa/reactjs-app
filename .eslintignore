@@ -1,4 +1,4 @@
-.eslint*
+.eslintrc.json
 .prettierrc.*
 package.json
 pnpm-lock.*
