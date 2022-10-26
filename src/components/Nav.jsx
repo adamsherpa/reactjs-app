@@ -10,6 +10,9 @@ const Nav = () => {
         <li className='nav-item'>
           <Link className='nav-link' to='/GroupedTeamMembers'>Teams</Link>
         </li>
+        <li className='nav-item'>
+          <Link className='nav-link' to='/NotFound'>404</Link>
+        </li>
       </ul>
     </nav>
   );
