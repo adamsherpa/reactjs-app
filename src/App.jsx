@@ -103,11 +103,11 @@ const App = () => {
     localStorage.setItem("selectedTeam", JSON.stringify(selectedTeam));
   }, [selectedTeam]);
 
-  function handleTeamSelectionChange(event) {
+  function handleTeamSelectionChange (event) {
     console.log(event.target.value);
     setTeam(event.target.value);
   }
-  function handleEmployeeCardClick(event) {
+  function handleEmployeeCardClick (event) {
     const transformedEmployees = employees.map((employee) => {
       if (employee.id === parseInt(event.currentTarget.id, 10)) {
         if (employee.teamName === selectedTeam) {

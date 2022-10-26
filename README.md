@@ -1,4 +1,5 @@
 ## Todo
+
 - Webpack
 - React Router
 - React Components
@@ -6,6 +7,9 @@
 Youtube [link](https://www.youtube.com/watch?v=u6gSSpfsoOQ) time 1:09:09
 
 ## Shell cmds
+
+]
+
 ```shell
 pnpm init
 pnpm add -D @tsconfig/create-react-app @types/react @types/react-dom react react-dom vite typescript typescript-language-server
@@ -13,13 +17,14 @@ pnpm add -D @vitejs/plugin-react
 pnpm add bootstrap
 ```
 
-
 ## Initialize typescript config
+
 ```shell
 tsc init
 ```
 
 ## vite.config.js
+
 ```javascript
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
@@ -35,12 +40,15 @@ export {
 ```
 
 ## Added a line to tsconfig.json
+
 ```json
 "types": ["vite/client"]
 ```
 
 ## Added Edge Dev Tools
+
   .vscode > launch.json
+
 ```json
 {
     "configurations": [
